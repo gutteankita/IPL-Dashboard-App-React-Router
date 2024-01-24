@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.latest-matches-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.latest-matches-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-family: Bree Serif;
+}
+.competing-team-info {
+  margin: 10px;
+}
+
+.date {
+  margin-bottom: 30px;
+}
+.info1 {
+  margin-bottom: 10px;
+}
+.logo {
+  height: 200px;
+  margin-top: 10px;
+}
+.info-heaindg {
+  font-size: 23px;
+  font-weight: 500;
+}
+.teams-information {
+  margin: 10px;
+}
+.info-heaindg {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+@media (max-width: 576px) {
+  .latest-matches-container {
+    background-color: #0f172a;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: Bree Serif;
+  }
+}

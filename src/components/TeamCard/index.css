@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.team-cards-link {
+  text-decoration: none;
+}
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ffffff;
+  margin: 5px;
+  border-radius: 15px;
+  background-color: #475569;
+  padding: 10px;
+  list-style-type: none;
+}
+.image {
+  height: 120px;
+  width: 120px;
+  margin-right: 10px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 34px;
+  font-family: Bree Serif;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .team-cards {
+    width: 110px;
+  }
+  .image {
+    height: 30px;
+    margin-right: 5px;
+  }
+  .name {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .team-cards {
+    width: 240px;
+  }
+  .image {
+    height: 60px;
+  }
+  .name {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .team-cards {
+    width: 320px;
+    height: 150px;
+  }
+  .image {
+    height: 100px;
+  }
+  .name {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 992px) {
+  .team-cards {
+    width: 430px;
+    height: 180px;
+  }
+}

@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.matches-card-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  border: 2px solid wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  width: 300px;
+  margin-top: 10px;
+}
+.logo {
+  height: 120px;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.competing-team {
+  text-align: center;
+  color: #ffffff;
+  font-family: Bree Serif;
+  margin-bottom: 30px;
+  height: 120px;
+}
+.result {
+  color: #ffffff;
+  text-align: center;
+  font-family: Bree Serif;
+  margin-bottom: 30px;
+}
+
+.status {
+ 
+  font-family: Bree Serif;
+}
